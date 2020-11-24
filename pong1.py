@@ -72,6 +72,15 @@ ball4.dy
 
 balls = [ball1, ball2, ball3, ball4]
 
+# Pen
+pen = turtle.Turtle()
+pen.speed(0)
+pen.color("white")
+pen.penup()
+pen.hideturtle()
+
+
+
 
 
 
