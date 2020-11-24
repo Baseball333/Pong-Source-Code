@@ -110,6 +110,12 @@ wn.onkeypress(paddle_b_dpwn, "Down")
 while True:
     wn.update()
     
+    for ball in balls:
+    # Move the ball
+    ball.setx(ball.xcor() + ball.dx)
+    ball.sety(ball.ycor() + ball.dy)
+    
+    
 
 
 
