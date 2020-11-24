@@ -99,6 +99,13 @@ def paddle_b_down():
     paddle_b.sety(y)
     
 
+# Keyboard Bindings
+wn.listen()
+wn.onkeypress(paddle_a_up, "w")
+wn.onkeypress(paddle_a_down, "s")
+wn.onkeypress(paddle_b_up, "Down")
+wn.onkeypress(paddle_b_dpwn, "Down")
+
 
 
 
