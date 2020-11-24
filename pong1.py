@@ -79,6 +79,26 @@ pen.color("white")
 pen.penup()
 pen.hideturtle()
 
+# Gameplay Functions
+def paddle_a_up():
+    y += 20
+    paddle_a.sety(y)
+    
+def paddle_a_down():
+    y += 20
+    paddle_a.sety(y)
+    
+def paddle_b_up():
+    y = paddle_b.ycor()
+    y += 20
+    paddle_b.sety(y)
+    
+def paddle_b_down():
+    y = paddle_b.ycor()
+    y -= 20
+    paddle_b.sety(y)
+    
+
 
 
 
