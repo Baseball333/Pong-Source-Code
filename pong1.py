@@ -115,8 +115,25 @@ while True:
     ball.setx(ball.xcor() + ball.dx)
     ball.sety(ball.ycor() + ball.dy)
     
-    
-
+    # Border Checking
+     if ball.ycor() > 290:
+            ball.sety(290)
+            ball.dy *= -1
+            os.system("afplay bounce.wav&")
+            
+     if ball.xcor() < -390:
+        ball.goto(0, 0)
+        ball.dx *= -1
+        score_a += 1
+        pen.write("Playee A: {} Player B: {}" align="center", font="Arial")
+        
+        
+     if ball.xcor() < -390:
+        ball.goto(0, 0)
+        ball.dx *= -1
+        score_a += 1
+        pen.clear()
+        pen.write("Player A: {} Player B: {}" align="center", font="Arial")
 
 
 
