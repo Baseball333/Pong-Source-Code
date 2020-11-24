@@ -134,6 +134,15 @@ while True:
         score_a += 1
         pen.clear()
         pen.write("Player A: {} Player B: {}" align="center", font="Arial")
+        
+        
+     # Paddle and ball collisions
+          if (ball.xcor() < 350 and (ball.ycor() < paddle_b.ycor() + 50 and ball.ycor() -50):
+              ball.setx(340)
+              ball.dx *= -1
+              
+          if (ball.xcor() < -340 and ball.xcor() > -350) and (ball.ycor() < paddle_a.ycor() + 40 and os.system("aplay bounce,wav&")
+                                                              
 
 
 
