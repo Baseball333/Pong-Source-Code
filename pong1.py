@@ -106,7 +106,10 @@ wn.onkeypress(paddle_a_down, "s")
 wn.onkeypress(paddle_b_up, "Down")
 wn.onkeypress(paddle_b_dpwn, "Down")
 
-
+# Main gameplay
+while True:
+    wn.update()
+    
 
 
 
