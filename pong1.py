@@ -31,5 +31,47 @@ paddle_b.shapesize(stretch_wid=5, stretch_len=1)
 paddle_b.penup()
 paddle_b.goto(350, 0)
 
+# Ball
+ball = turtle.Turtle()
+ball.speed(0)
+ball.shape("square")
+ball.color("blue")
+ball.penup()
+ball.goto(0, 0)
+ball.dx = 2
+ball.dy = -2
+
+# Ball 2
+ball2 = turtle.Turtle()
+ball2.speed(0)
+ball2.shape("square")
+ball2.color("blue")
+ball2.penup()
+ball2.dx = -2
+ball2.dy = -2
+
+# Ball 3
+ball3 = turtle.Turtle()
+ball3.speed(0)
+ball3.shape("square")
+ball3.color("blue")
+ball3.penup()
+ball.goto(0, 0)
+ball.dx = 2
+ball.dy = -2
+
+# Ball 4
+ball4 = turtle.Turtle()
+ball4.speed(0)
+ball4.shape("square")
+ball4.color("blue")
+ball4.penup()
+ball4.goto(0, 0)
+ball4.dx = -1
+ball4.dy
+
+balls = [ball1, ball2, ball3, ball4]
+
+
 
 
