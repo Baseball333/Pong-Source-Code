@@ -154,5 +154,14 @@ while True:
           if (ball.xcor() < -340 and ball2.xcor() > -350) and (ball2.ycor() < paddle_a.ycor() + 40 and ball
                  ball2.setx(-340)  
                  ball2.dx *= 1                                              
-                 os.system("aplay bounce.wav&")                                            
+                 os.system("aplay bounce.wav&")
+                                                               
+          # AI Player                                                 
+          closest_ball = balls[0]
+             for ball in balls[0]                                           
+                                                               
+                                                               
+                                                               
+                                                               
+                                                               
                                                                
