@@ -158,10 +158,15 @@ while True:
                                                                
           # AI Player                                                 
           closest_ball = balls[0]
-             for ball in balls[0]                                           
+             for ball in balls[0]
+                if ball.xcor() > ball2.xcor():
+                   closest_ball = ball
+             if ball.xcor() > ball2.xcor():
+               if paddle_b.ycor() < ball.ycor() and avs(paddle_b.ycor() - closest_ball.ycor()) > 10:
                                                                
+                  paddle_b_up()                                               
                                                                
+                 elif paddle_b.ycor() > ball.ycor() and abs(paddle_b.ycor() - closest_ball.ycor()) > 10:
                                                                
-                                                               
-                                                               
+                      paddle_b_down()                                         
                                                                
