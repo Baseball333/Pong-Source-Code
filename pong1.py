@@ -142,7 +142,17 @@ while True:
               ball.dx *= -1
               
           if (ball.xcor() < -340 and ball.xcor() > -350) and (ball.ycor() < paddle_a.ycor() + 40 and os.system("aplay bounce,wav&")
+              ball.setx(-340)
+              ball.dx *= -1
+              os.system("aplay bounce.wav&")
                                                               
-
-
-
+          if (ball.xcor() > 340 and ball.xcor() < 350) and (ball.ycor() < paddle_b.ycor() + 40 and ball
+                 ball2.setx(340)                                           
+                 ball2.dx *=  1
+                 os.system("afplay bounce.wav&")
+                                                         
+          if (ball.xcor() < -340 and ball2.xcor() > -350) and (ball2.ycor() < paddle_a.ycor() + 40 and ball
+                 ball2.setx(-340)  
+                 ball2.dx *= 1                                              
+                 os.system("aplay bounce.wav&")                                            
+                                                               
