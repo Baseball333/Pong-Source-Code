@@ -5,7 +5,7 @@ Second Commit:
 I'm not explaining the logical structure right now.
 
 Third Commit:
-This repository hosts the source code for a Pong variant written in Python with the turtle and os libraries. The final game is accessible through a graphical shell which is easily written if Python is installed on a user's operating system(UNIX opr UNIX-like systems). Anyway, notice how the logical structure of the source code is not convenitonal OOP, instead something more like imperative instruction. For example, here is the graphical shell.
+This repository hosts the source code for a Pong variant written in Python with the turtle and os libraries. The final game is accessible through a graphical shell which is easily written if Python is installed on a user's operating system(UNIX or UNIX-like systems). Anyway, notice how the logical structure of the source code is not convenitonal OOP, instead something more like imperative instruction. For example, here is the graphical shell.
 
 wn = turtle.Screen()
 wn.title("Pong")
@@ -25,3 +25,9 @@ After the functions are defined and verified in runtime, the keyboard bindings a
 
 Seventh Commit:
 The gameplay loop is where the majority of gameplay is executed. First the shell is graphically updated, next the for loop establishing movement of the ball. Since the gameplay loop is extensive, each operation will be described in a separate commit.
+
+Eighth Commit:
+After the for loop border checking is written(with the aid of the os library). Border checking is written with four if statements, whose purpose is to assure the
+movement of the ball resets when collision with the border occurs(such to maintain gameplay). 
+
+
