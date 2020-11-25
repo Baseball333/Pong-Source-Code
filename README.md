@@ -23,3 +23,5 @@ Functions for component movement are defined in these functions, specifically th
 Sixth Commit:
 After the functions are defined and verified in runtime, the keyboard bindings are written. Keyboard bindings are especially important in Pong as during the 1970s terminals were the primary source of computing. As such, this Python variant is created to simulate the Pong experience of the mid-1970s. Keyboard bindings were also written with imperative instruction.
 
+Seventh Commit:
+The gameplay loop is where the majority of gameplay is executed. First the shell is graphically updated, next the for loop establishing movement of the ball. Since the gameplay loop is extensive, each operation will be described in a separate commit.
