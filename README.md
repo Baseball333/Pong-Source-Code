@@ -20,3 +20,6 @@ This Pong variant was written with simple instruction, which is evident in the g
 Fifth Commit:
 Functions for component movement are defined in these functions, specifically their limitations in the graphical shell(a Cartesian Plane). These components are established at a point in the Cartesian Plane by variable assignment.
 
+Sixth Commit:
+After the functions are defined and verified in runtime, the keyboard bindings are written. Keyboard bindings are especially important in Pong as during the 1970s terminals were the primary source of computing. As such, this Python variant is created to simulate the Pong experience of the mid-1970s. Keyboard bindings were also written with imperative instruction.
+
