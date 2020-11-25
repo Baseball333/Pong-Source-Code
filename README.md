@@ -13,3 +13,6 @@ wn.bgcolor("black")
 wn.setup(width=800, height=500)
 
 Notice how direct instruction is provided instead of object orientation. This might appear deliberated although at the time I was not familiar with OOP and simply sought to create something. Be wary, this is not oppostion towards OOP, I was just explaining context.
+
+Third Commit:
+This Pong variant was written with simple instruction, which is evident in the game's components. Of the 172 lines all were written with the completion of components. Pong requires two paddles, a ball and their derived operations. A pen is also specified to write graphical components, although it is eventually retired through the pen.penup() method. Operations are described in the next commit.
