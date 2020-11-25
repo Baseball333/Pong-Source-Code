@@ -30,4 +30,5 @@ Eighth Commit:
 After the for loop border checking is written(with the aid of the os library). Border checking is written with four if statements, whose purpose is to assure the
 movement of the ball resets when collision with the border occurs(such to maintain gameplay). 
 
-
+Ninth Commit:
+The final component of the while loop is the AI player which the a central component of Pong. The AI player is the default opponent of a player. Its implementation is not complex. Gameplay events are tested in an absolute structure which develops the pattern recognition of the machine. Regard that the AI Player is simply a component of a Pong, it is not a deep learning model.
